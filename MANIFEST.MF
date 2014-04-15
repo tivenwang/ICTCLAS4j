@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+Class-Path: lib/jna-4.0.0.jar
+Main-Class: com.tiven.test.NlpirTest

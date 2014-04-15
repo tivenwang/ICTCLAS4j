@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<NLPIR> 
+  <!-- 词性标注集映射文件 -->  
+  <TagSet>ICTPOS.map</TagSet>  
+  <!-- //On：UserDictionaryapplied;Off:notapplied； -->  
+  <UserDict>on</UserDict>  
+  <!-- //用户词典优先,Addedin2006-03-16,requiredbyNECOn：用户词典和核心词典中同时有的词汇，用户词典优先，本功能不要滥用，如果将核心词典中的词都设置为用户词典，其效果适得其反 -->  
+  <UserDictPrior>Off</UserDictPrior>  
+  <!-- //On：FieldDictionaryapplied;Off:notapplied； -->  
+  <FieldDict>on</FieldDict>  
+  <GranularityContorl>off</GranularityContorl>  
+  <!-- //On,Off；例如：Off:关闭日志功能；On:打开日志功能 -->  
+  <Log>On</Log>  
+  <!-- //系统版本号 -->  
+  <version>2013</version>  
+  <!-- //系统最近修订时间 -->  
+  <Modify>2012-11-14</Modify>  
+  <!-- //词典最近修订时间 -->  
+  <Lexicon>2012-11-14</Lexicon>  
+  <!-- //On,Off；例如：Off:关闭情感分析功能；On:打开情感分析功能 -->  
+  <Sentiment>On</Sentiment>  
+  <!-- //自适应分词，默认为false，自适应分词的效率会较低 -->  
+  <adaptive>true</adaptive>  
+  <!-- //作者 -->  
+  <author>张华平博士</author>  
+  <!-- //作者联系方式 -->  
+  <Contact>pipy_zhang@msn.com</Contact> 
+</NLPIR>
