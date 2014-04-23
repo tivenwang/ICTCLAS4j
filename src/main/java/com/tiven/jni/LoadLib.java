@@ -5,7 +5,7 @@ import java.util.Properties;
 /** 
  * @author tiven 
  * 类说明 
- * 获取组件
+ * 根据不同平台获取组件
  */
 public class LoadLib {
 	
